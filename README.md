@@ -122,6 +122,17 @@ Direct shopping links to:
 - Loewe
 - The RealReal (pre-owned luxury)
 
+## 🚀 Deployment
+
+Want to deploy this app so your friends can use it? Check out the **[DEPLOYMENT.md](./DEPLOYMENT.md)** guide!
+
+**Quick Deploy Options:**
+- **Railway** (Recommended) - Free tier available, supports full-stack apps
+- **Render** - Alternative free option
+- **Manus** - One-click publish if you built it in Manus
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for step-by-step instructions.
+
 ## 📝 License
 
 MIT License - feel free to use this project for personal or commercial purposes!
