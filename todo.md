@@ -63,3 +63,9 @@
 - [x] Make design brighter and more inviting (less dark)
 - [x] Add clickable shopping links to bag recommendations
 - [x] Ensure LLM includes direct URLs in responses
+
+
+## GitHub Deployment
+- [ ] Create GitHub repository
+- [ ] Push code to GitHub
+- [ ] Share repository URL with friends
