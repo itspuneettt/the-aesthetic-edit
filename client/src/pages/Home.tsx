@@ -176,21 +176,21 @@ export default function Home() {
               <p className="text-muted-foreground mb-4">
                 Your AI-powered fashion expert for discovering the coolest, most aesthetic bags of 2026.
               </p>
-              <div className="text-sm text-muted-foreground space-y-2">
-                <p>✨ Ask me about trendy bags for any season</p>
-                <p>💎 Get personalized recommendations based on your budget</p>
-                <p>🚫 No basic bags - only It-Bags and runway favorites</p>
-                <p>🌟 Celebrity styling inspiration included</p>
-                <p>🔗 Direct shopping links to official sites & resellers</p>
+              <div className="text-sm space-y-2">
+                <p className="text-primary font-medium">✨ Ask me about trendy bags for any season</p>
+                <p className="text-secondary font-medium">💎 Get personalized recommendations based on your budget</p>
+                <p className="text-accent font-medium">🚫 No basic bags - only It-Bags and runway favorites</p>
+                <p className="text-primary font-medium">🌟 Celebrity styling inspiration included</p>
+                <p className="text-secondary font-medium">🔗 Direct shopping links to official sites & resellers</p>
               </div>
-              <div className="mt-6 grid grid-cols-2 gap-4 text-xs">
-                <div className="y2k-glass p-3 rounded-lg">
-                  <p className="font-semibold y2k-metallic mb-1">Trending Now</p>
-                  <p className="text-muted-foreground">Burgundy suede, chain handles, ladylike shapes</p>
+              <div className="mt-6 grid grid-cols-2 gap-4 text-sm">
+                <div className="y2k-glass p-4 rounded-2xl border-2 border-primary/30">
+                  <p className="font-bold y2k-metallic mb-2 text-lg">✨ Trending Now</p>
+                  <p className="text-foreground font-medium">Burgundy suede, chain handles, ladylike shapes</p>
                 </div>
-                <div className="y2k-glass p-3 rounded-lg">
-                  <p className="font-semibold y2k-metallic mb-1">Celebrity Faves</p>
-                  <p className="text-muted-foreground">Bella Hadid, Hailey Bieber, Dakota Fanning</p>
+                <div className="y2k-glass p-4 rounded-2xl border-2 border-secondary/30">
+                  <p className="font-bold y2k-metallic mb-2 text-lg">💖 Celebrity Faves</p>
+                  <p className="text-foreground font-medium">Bella Hadid, Hailey Bieber, Dakota Fanning</p>
                 </div>
               </div>
             </Card>

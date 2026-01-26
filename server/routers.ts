@@ -139,17 +139,52 @@ Brands to feature: ${seasonalInfo.brands.join(", ")}` : ""}
 ${budgetInfo ? `**BUDGET TIER: ${budgetInfo.name} ($${budgetInfo.min}-$${budgetInfo.max})**
 Recommend bags within this price range.` : ""}
 
-**RESPONSE FORMAT:**
+**RESPONSE FORMAT (CRITICAL - MUST INCLUDE CLICKABLE LINKS):**
 For each bag recommendation, provide:
+
 1. **Bag Name & Price** (e.g., "Chloé Paddington - $2,750")
+
 2. **Why It's Cool** (2-3 sentences with industry-backed reasoning, mention runway trends, celebrity endorsements, or fashion editor picks)
+
 3. **Seasonal Styling Guide** (how to style it for the current season with specific outfit suggestions)
+
 4. **Celebrity Inspo** (mention which celebrities have been spotted with this bag or similar styles)
-5. **Shop Now** (suggest searching for "[Brand] [Bag Name] official site" or "The RealReal [Bag Name]" for resale)
+
+5. **🛍️ Shop Now Links** (CRITICAL - MUST INCLUDE):
+   - Format as markdown links: [Shop at Brand Site](https://www.brandname.com) or [Shop at The RealReal](https://www.therealreal.com)
+   - For luxury brands, provide direct links:
+     * Chanel: https://www.chanel.com/us/fashion/handbags/
+     * Dior: https://www.dior.com/en_us/fashion/womens-fashion/bags
+     * Gucci: https://www.gucci.com/us/en/ca/women/handbags-for-women-c-women-handbags
+     * Prada: https://www.prada.com/us/en/women/bags.html
+     * Bottega Veneta: https://www.bottegaveneta.com/en-us/women/bags
+     * Balenciaga: https://www.balenciaga.com/en-us/women/bags
+     * Celine: https://www.celine.com/en-us/celine-shop-women/bags
+     * Saint Laurent: https://www.ysl.com/en-us/women/handbags
+     * The Row: https://www.therow.com/us/shop/bags
+     * Loewe: https://www.loewe.com/usa/en/women/bags
+   - For resale/pre-owned: https://www.therealreal.com/designers/[brand-name]/handbags
+   - For affordable brands: https://www.shopbop.com or https://www.ssense.com
+
+**EXAMPLE FORMAT:**
+### 1. Chloé Paddington in Burgundy Suede - $2,750
+
+**Why It's Cool:** This 2000s icon is back and better than ever! Fashion editors are obsessed with the ultra-soft suede texture and signature padlock detail. Spotted on Dua Lipa and Kate Middleton, it's the perfect blend of nostalgia and modern luxury.
+
+**Seasonal Styling:** Pair with a chunky knit sweater, high-waisted jeans, and knee-high boots for that perfect fall aesthetic. The burgundy tone complements caramel and chocolate brown tones beautifully.
+
+**Celebrity Inspo:** Kate Middleton, Dua Lipa, and fashion editors worldwide
+
+**🛍️ Shop Now:**
+- [Shop at Chloé Official](https://www.chloe.com/us)
+- [Shop Pre-Owned at The RealReal](https://www.therealreal.com/designers/chloe/handbags)
+- [Shop at Net-a-Porter](https://www.net-a-porter.com/en-us/shop/designer/chloe)
+
+---
 
 Keep responses conversational, fun, and fashion-forward. Use phrases like "obsessed with", "It-girl approved", "runway favorite", "editor's pick".
 
-Provide 2-3 bag recommendations per response unless user asks for more specific guidance.`;
+Provide 2-3 bag recommendations per response unless user asks for more specific guidance. ALWAYS include clickable shopping links for EVERY bag.`;
 
         try {
           // Call LLM

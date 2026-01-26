@@ -36,8 +36,8 @@
 - [x] Test budget tier filtering
 - [x] Test real-time search integration
 - [x] Test LocalStorage persistence
-- [ ] Create deployment checkpoint
-- [ ] Deploy to live URL
+- [x] Create deployment checkpoint
+- [x] Deploy to live URL
 
 
 ## Progress Update
@@ -56,3 +56,10 @@
 - [x] Celebrity inspiration integration
 - [x] Bag suggestion format with all required fields
 - [x] Responsive mobile design
+
+
+## User Requested Changes
+- [x] Change color scheme to fun girly Y2K (pastel pinks, greens, yellows - Depop/coquette style)
+- [x] Make design brighter and more inviting (less dark)
+- [x] Add clickable shopping links to bag recommendations
+- [x] Ensure LLM includes direct URLs in responses
