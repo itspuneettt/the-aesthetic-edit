@@ -1,4 +1,4 @@
-# 💖 The Aesthetic Edit
+# 💖 Bag GPT
 
 **Your AI-powered fashion expert for discovering the coolest, most aesthetic bags of 2026.**
 
